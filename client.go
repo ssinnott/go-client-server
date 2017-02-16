@@ -7,10 +7,6 @@ import (
 	"net"
 )
 
-const (
-	BUFFER_LENGTH = 1024
-)
-
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 
