@@ -9,6 +9,14 @@ import (
 	"strings"
 )
 
+const (
+	CONN_HOST = "localhost"
+	CONN_PORT = "3334"
+	CONN_TYPE = "tcp"
+	BUFFER_LENGTH = 1024
+)
+
+
 
 func main() {
 
